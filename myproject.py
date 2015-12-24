@@ -12,7 +12,7 @@ def sendNewSignUpEmail(email):
     #this stuff is copied from the interwebs, might be more succint way to accomplish 
     to = "w.ratliff1@gmail.com"
     gmail_user = "w.ratliff1@gmail.com"
-    gmail_pwd = "habgnhejenssaxpy"
+    gmail_pwd = "*********" #needs to be app specific pw
     smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
     smtpserver.ehlo()
     smtpserver.starttls()
